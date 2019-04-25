@@ -1,6 +1,58 @@
+html {
+  font-size: 1em; }
+
 body {
   padding: 0px;
   margin: 0px; }
+
+.header .navbar, .header .banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .navbar .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap; }
+    .navbar .logo img {
+      max-width: 100%;
+      height: auto;
+      -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center; }
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+li {
+  list-style-type: none; }
+
+.banner {
+  font-size: 3rem;
+  padding: 3rem; }
+  .banner .get-started-button {
+    font-size: 2rem;
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0; }
+
+.clickable {
+  background: #05d69b;
+  border: 0px solid;
+  border-radius: 5px;
+  padding: 0.5em 2em 0.5em 2em;
+  white-space: nowrap; }
 
 .attribution {
   font-size: 11px;
