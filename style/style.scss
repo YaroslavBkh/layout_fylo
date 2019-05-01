@@ -7,7 +7,33 @@ html{
 body {
   padding: 0px;
   margin: 0px;
+  background-color: indigo;
 }
+
+.navbar {
+  display: flex;
+  align-items: center;
+  margin: 1.5rem 3rem 1.5rem 3rem;
+  &__account {
+    display: inline-flex;
+    margin-left: auto;
+  }
+  &__sign-in, &__sign-up {
+    list-style-type: none;
+    margin: 0rem 0.3rem 0rem 0.3rem;
+  }
+}
+ // .navbar__sign-in {
+ //  display: inline-block;
+ // }
+ // .navbar__sign-up {
+ //  display: inline-block;
+ // }
+
+
+
+
+
 
 // .header {
 //   background-color: indigo;
