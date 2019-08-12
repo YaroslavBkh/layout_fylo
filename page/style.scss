@@ -1,0 +1,68 @@
+html{
+  box-sizing: border-box;
+}
+
+* {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: indigo;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  margin: 1.5rem 3rem 1.5rem 3rem;
+  &__account {
+    display: inline-flex;
+    align-items: center;
+    margin-left: auto;
+  }
+  &__sign-in, &__sign-up {
+    list-style-type: none;
+    margin: 0rem 0.3rem 0rem 0.3rem;
+  }
+}
+
+.banner {
+  display: flex;
+  font-size: 2rem;
+  margin: 1.5rem 3rem 1.5rem 3rem;
+  &__call-to-action {
+    margin: 1em 0em 1em 0em;
+    padding: 1em 0em 1em 0em;
+  }
+  &__hero {
+    margin: 1rem 1rem 1rem 1rem;
+    img {
+      max-width: 100%;
+    }
+  }
+}
+
+.clickable {
+  background: hsl(163, 95%, 43%);
+  border: 0px solid;
+  border-radius: 5px;
+  padding: 0.5em 3em 0.5em 3em;
+  white-space: nowrap;
+  // margin: 1em;
+  margin: 0 auto;
+  display: inline-block;
+  font-size: 1em;
+}
+
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+  a { 
+  color: hsl(228, 45%, 44%); 
+  }
+}
+
